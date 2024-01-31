@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #1b1207;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 40%;
+    border-radius: 2em;
+    margin: 0em auto;
+    height: 60%;
+    background-color: #ffffff;
+}
+section h3{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 0em auto;
+}
+.print{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.text{
+    margin-bottom: 3em;
+    width: 65%;
+    border: 1px solid;
+}
+button{
+    border: none;
+
+}
+.butImg{
+    width: 13%;
+}
+/* small screen */
+@media  screen and (max-width: 767px) {
+section{
+    width: 95%;
+    height: 70vh;
+}
+.text{
+    padding: 1em;
+    width: 100%;
+}
+}
+
+/* /tablet screen/ */
+
+@media screen and (min-width: 768px) and( max-width: 1024px){
+    section{
+        width: 95%;
+        height: 70vh;
+    }
+    .text{
+        padding: 1em;
+        width: 100%;
+    } 
+
+    
+}
